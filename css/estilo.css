@@ -21,3 +21,10 @@ nav {
     font-size: 25px;
     color: white;
 }
+
+main>div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 300px;
+}
