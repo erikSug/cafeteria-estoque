@@ -17,7 +17,7 @@ ESTOQUE = [
     ("Pão de queijo", "un", 60, 40),
 ]
 
-SAIDA = Path(__file__).parent / "docs" / "boletim.pdf"
+SAIDA = Path(__file__).parent / "boletim.pdf"
 
 
 def status(qtd, minimo):
