@@ -1,6 +1,11 @@
 # Controle de Estoque (Cafeteria)
 
-Script em Python (ReportLab) que gera um boletim de estoque em PDF, e uma página web simples para visualizá-lo.
+## Integrantes:
+- João Vitor de Matos
+- Erik Suguiyama
+- Gabriel Kato
+
+Script em Python usando a biblioteca ReportLab que gera um boletim simplificado do estoque da cafeteria em PDF, e uma página web simples para visualizá-lo.
 
 ## Como usar
 
@@ -15,3 +20,4 @@ Se o navegador bloquear o PDF, rode `python -m http.server` dentro de `docs/` e 
 ## Estrutura
 
 - `gerar_boletim.py`: gera `boletim.pdf`
+- `index.html`: front-end do gerador, para leitura do PDF
