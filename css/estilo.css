@@ -5,6 +5,26 @@
 }
 
 header {
+    background-color: #dcbb9f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 5rem;
+}
 
-    color: aqua;
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+#logo {
+    font-size: 25px;
+    color: white;
+}
+
+main>div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 300px;
 }
