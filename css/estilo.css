@@ -22,9 +22,34 @@ nav {
     color: white;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+
+}
+
 main>div {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    min-width: 300px;
+    max-width: 450px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 1.5rem;
+    background-color: #be9a6f;
+    color: white;
+    gap: 10px;
+}
+
+#buttonTitle {
+    font-size: larger;
+}
+
+button {
+    height: 30px;
+    border-color: black;
+    border-radius: 10px;
+    color: white;
+    background-color: #472718;
 }
